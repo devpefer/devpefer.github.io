@@ -44,11 +44,11 @@
 					<li class="nav-item">
 					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Inicio</a>
 					</li>
-					<li class="nav-item">
-					    <a class="nav-link" href="blog.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Blog</a>
+                    <li class="nav-item active">
+					    <a class="nav-link" href="blog.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Blog<span class="sr-only">(current)</span></a>
 					</li>
-					<li class="nav-item active">
-					    <a class="nav-link" href="scripts.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Scripts<span class="sr-only">(current)</span></a>
+					<li class="nav-item">
+					    <a class="nav-link" href="scripts.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Scripts</a>
 					</li>
 					<li class="nav-item">
 					    <a class="nav-link" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>Sobre mi</a>
@@ -59,27 +59,24 @@
 		</nav>
     </header>
     
-<div class="main-wrapper">
-	    <article class="blog-post px-3 py-5 p-md-5">
+    <div class="main-wrapper">
+	    <section class="blog-list px-3 py-5 p-md-5">
 		    <div class="container">
-			    <header class="blog-post-header">
-				    <h2 class="title mb-2">Instalar paquetes developer + clonar repositorios (GNU/Linux)</h2>
-			    </header>
-			    
-			    <div class="blog-post-body">
-				    <p>Este script fue creado con la idea de instalar el software basico necesario para un back-end developer, también brinda la posibilidad de clonar varios repositorios de git tanto publicos como privados (estos últimos mediante un token generado desde el sitio git) </p>
-
-				    <p><a href="https://github.com/devpefer/PynitialSetup/blob/master/confOS.py">Ver código</a></p>
-					<p><a href="https://github.com/devpefer/PynitialSetup/archive/master.zip">Descargar</a></p>
+			    <div class="item mb-5">
+				    <div class="media">
+					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/blog/java.jpeg" alt="image">
+					    <div class="media-body">
+						    <h3 class="title mb-1"><a href="confOS.html">Programación básica en JAVA</a></h3>
+						    <div class="intro">Curso básico de programación en JAVA...</div>
+						    <a class="more-link" href="confOS.html">Leer más... &rarr;</a>
+					    </div><!--//media-body-->
+				    </div><!--//media-->
 			    </div><!--//item-->
-			    
-                <nav class="blog-nav nav nav-justified my-5">
-				  <a class="nav-link-prev nav-item nav-link rounded-left" href="scripts.html">Atrás<i class="arrow-prev fas fa-long-arrow-alt-left"></i></a>
-				</nav>
 		    </div>
-        </article>
-</div><!--//main-wrapper-->
-
+	    </section>
+	        
+    </div><!--//main-wrapper-->
+        
     <!-- Javascript -->          
     <script src="assets/plugins/jquery-3.3.1.min.js"></script>
     <script src="assets/plugins/popper.min.js"></script> 
